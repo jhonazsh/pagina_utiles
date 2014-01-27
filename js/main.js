@@ -26,5 +26,7 @@ function mostrar(event){
 };
 
 
-
+$('.carousel').carousel({
+	interval:3000
+});
 
