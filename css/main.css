@@ -101,27 +101,46 @@ ul
     margin: 0;
     padding: 0;
 }
-.app_nav
-{
-    background: #333;
-}
+
 .app_ul li
 {
     display: inline-block;
-    margin: 0 auto;
-    padding: 15px;
-    color: #999;
+    list-style-type: none;
+    margin: 30px 50px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.app_ul li .linea_nav{
+
+    background-color: #cccccc;
+    width: 97%;
+    margin: 0 auto 15px;
+    height: 6px;
 }
 
-.app_ul li:hover
-{
+.app_ul li a{
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #cccccc;
+    font-family: "Avenir", Futura, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.turquesa :active{
+    background: #3498DB;
     color: white;
+    text-decoration: none;
 }
-
-/*Solo modifico el primer elemento(1)*/
-.app_ul a:nth-child(1)
+.turquesa :hover
 {
-    font-size: 18px;
+    color:#1ABC9C;
+}
+.turquesa:hover .linea_nav{
+    background: #1ABC9C;
 }
 
 /********************/
