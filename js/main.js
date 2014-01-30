@@ -54,7 +54,83 @@ function mostraricono(event){
 	}
 }
 
+$(".activateE").click(function(){
+   $(".nav_linea").css({"background":"#3498DB",
+   			});
+   $(".l_activa_empresa").css({
+   			"background":"#3498DB",
+   });
+   $(".turquesa:hover").css({
+   					"color":"#ecf0f1",
+   					"background":"#3498DB",
+   });
+   $(this).css({ "background":"#3498DB",
+   				"color":"#ecf0f1",
+   				"font-weight": "600",
+   });
+})
 
+$(".activateU").click(function(){
+   $(".nav_linea").css({"background":"#3498DB",
+   			});
+   $(".l_activa_escolar").css({
+   			"background":"#3498DB",
+   });
+   $(".turquesa:hover").css({
+   					"color":"#ecf0f1",
+   					"background":"#3498DB",
+   });
+   $(this).css({ "background":"#3498DB",
+   				"color":"#ecf0f1",
+   				"font-weight": "600",
+   });
+})
 
+$(".activateO").click(function(){
+   $(".nav_linea").css({"background":"#3498DB",
+   			});
+   $(".l_activa_oficina").css({
+   			"background":"#3498DB",
+   });
+   $(".turquesa:hover").css({
+   					"color":"#ecf0f1",
+   					"background":"#3498DB",
+   });
+   $(this).css({ "background":"#3498DB",
+   				"color":"#ecf0f1",
+   				"font-weight": "600",
+   });
+})
 
+$(".activateR").click(function(){
+   $(".nav_linea").css({"background":"#3498DB",
+   			});
+   $(".l_activa_regalo").css({
+   			"background":"#3498DB",
+   });
+   $(".turquesa:hover").css({
+   					"color":"#ecf0f1",
+   					"background":"#3498DB",
+   });
+   $(this).css({ "background":"#3498DB",
+   				"color":"#ecf0f1",
+   				"font-weight": "600",
+   });
+})
+
+$(".activateC").click(function(){
+   $(".nav_linea").css({"background":"#3498DB",
+   			});
+   $(".l_activa_contacto").css({
+   			"background":"#3498DB",
+   });
+   $(".turquesa:hover").css({
+   					"color":"#ecf0f1",
+   					"background":"#3498DB",
+   });
+   $(this).css({ "background":"#3498DB",
+   				"color":"#ecf0f1",
+   				"font-weight": "600",
+   });
+})
 

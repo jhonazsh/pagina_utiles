@@ -106,8 +106,8 @@ ul
 {
     display: inline-block;
     list-style-type: none;
-    margin: 30px 50px;
-    width: 120px;
+    margin: 15px 34px 15px 34px;
+    width: 155px;
     height: 30px;
     cursor: pointer;
     text-decoration: none;
@@ -123,24 +123,40 @@ ul
 
 .app_ul li a{
     letter-spacing: 1px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     color: #cccccc;
-    font-family: "Avenir", Futura, Helvetica, sans-serif;
+    font-family: 'Duru Sans', sans-serif;
     text-decoration: none;
 }
 
-.turquesa :active{
-    background: #3498DB;
-    color: white;
-    text-decoration: none;
+.activateE{
+    height: 60px;
 }
+.activateU{
+    height: 60px;
+}
+.activateO{
+    height: 60px;
+}
+.activateR{
+    height: 60px;
+}
+.activateC{
+    height: 60px;
+}
+/* Efectos de Pestañas de navegacion*/
 .turquesa :hover
 {
     color:#1ABC9C;
 }
 .turquesa:hover .linea_nav{
     background: #1ABC9C;
+}
+
+.nav_linea{
+    background: #cccccc;
+    height: 3px;
 }
 
 /********************/
